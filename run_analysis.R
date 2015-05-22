@@ -8,7 +8,7 @@
 #From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 #install.packages("stringr")
 library(stringr)
-setwd("./R/CleaningData/Week3/UCI HAR Dataset/")
+#setwd("./R/CleaningData/Week3/UCI HAR Dataset/")
 aLabels <- read.table("activity_labels.txt")
 features <- read.table("features.txt")
 #head(features)
